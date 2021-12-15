@@ -1,0 +1,14 @@
+In line number 22 of your output:
+The output should be:
+001: Harry Potter and the Chamber of Secrets | J. K. Rowling            | 2/056
+     ^
+But your output is: 
+001: Invalid Book Record ................... | ........................ | .....
+     ^
+
+Unmatched character details:
+The character in column 6 is supposed to be:
+  [H] ASCII code(72)
+but you printed
+  [I] ASCII code(73)
+

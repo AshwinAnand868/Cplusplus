@@ -1,0 +1,14 @@
+In line number 127 of your output:
+The output should be:
+> abc
+    ^
+But your output is: 
+> ab
+     ^
+
+Unmatched character details:
+The character in column 6 is supposed to be:
+  [c] ASCII code(99)
+but you printed
+  [Empty Line] ASCII code(0)
+

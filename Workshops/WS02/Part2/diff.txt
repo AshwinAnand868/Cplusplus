@@ -1,0 +1,14 @@
+In line number 13 of your output:
+The output should be:
+Enter guest information or Enter to exit:
+^
+But your output is: 
+==242761== Invalid read of size 8
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [E] ASCII code(69)
+but you printed
+  [=] ASCII code(61)
+

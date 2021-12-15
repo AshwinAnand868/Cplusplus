@@ -1,0 +1,11 @@
+
+Name - Ashwin Anand
+Seneca email - aanand24@myseneca.ca
+Student id -152042206
+Date of creation - 22 September 2021
+
+
+
+                                                          Reflection 
+
+In this workshop, I have learnt about various topics like overloading, scopes, how to do dynamic memory allocation for an array or a variable, how to use references and various other topics like one- definition rule, declarations and definitions, array of pointers. First of all, in the workshop I declared the prototypes and definitions of many functions which are overloaded that is, name of functions, type of parameters and order of parameters should be similar to each other. Then, I learnt about one-definition rule which states that there should only be one definition of our functions or variables but declaration can be more than one time. I also learned about default parameters which can be used to assign default values to a function's parameters but that parameter must be the rightmost value. Then there are references which are an aliases for a variable or object and it directly stores the value of that variable rather than the copy. I also learnt about array of pointers which is a pointer that stores the addresses of various other arrays. After all these, I got to learn about static memory and dynamic memory. Static memory is a memory which is allocated at compile time and it is fixed and fast. However, if the application requires an extra memory during runtime then it may request to operating system and OS, in return allocate that memory which is called as dynamic memory. We can also allocate dynamic memory by ourself and this can be done by using new operator which return that memory's address and to store that we use pointer which itself would be in static memory. Now, if we got dynamic memory then it is our duty to delete that memory otherwise it would lead to memory leakage. We can delete by using delete operator. However, that memory will not be taken by the operating system back and it would be available for other variables or objects for future allocation. After the application execution, OS retrieves that memory. These are the things that I learnt from this workshop and notes which I feel quite useful.

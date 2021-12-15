@@ -1,0 +1,12 @@
+
+Name - Ashwin Anand
+Seneca email - aanand24@myseneca.ca
+Student id -152042206
+Date of creation - 22 September 2021
+
+
+I have done all the coding by myself and only copied the code that my professor provided to complete my workshops and assignments.
+													    
+														Reflection 
+
+In this workshop, I have learnt about very interesting topics such as classes, member functions in those classes, how to make member functions and variables in a class inaccessible to outside code, how to call public member functions or access variable by creating an instance of the respective class and apart from this, I got to know about functions that I can invoke on the cin and cout objects of iostream module. For example, I learned to execute get(), getLine() and ignore() functions on the cin object and along with this, I learned about how to format output by executing various functions like setf(), unsetf(), width(), fill() and precision() on cout object. Declaring and defining member functions seemed to me a very useful part in the coding and it made the code look very readable. The syntax of defining member functions outside the class was somewhat seemed confusing to me, but now I know how can I do that by using scope resolution operator. In the DIY part of workshop, I declared functions independently, and it boosted my confidence. I declared prototype of every function in their respective header file and made them public or private according to their need in the program. I got to know about accessors methods and modifier methods in this workshop. Overall, this workshop allowed me to practice various things related member functions and I can say that it was very interesting workshop.

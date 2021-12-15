@@ -1,0 +1,14 @@
+In line number 23 of your output:
+The output should be:
+Current location: Ottawa
+        ^
+But your output is: 
+Current Location: Ottawa^C==101609== 
+        ^
+
+Unmatched character details:
+The character in column 9 is supposed to be:
+  [l] ASCII code(108)
+but you printed
+  [L] ASCII code(76)
+

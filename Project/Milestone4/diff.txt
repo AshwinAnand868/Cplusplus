@@ -1,0 +1,14 @@
+In line number 51 of your output:
+The output should be:
+|*   2*| D208 | Harry Potter and the Philosoph | 72685 | 2021/11/19 | J. K. Rowling   |
+                                                                      ^
+But your output is: 
+|*   2*| D208 | Harry Potter and the Philosoph | 72685 | 2021/11/19 |   J. K. Rowling |
+                                                                      ^
+
+Unmatched character details:
+The character in column 71 is supposed to be:
+  [J] ASCII code(74)
+but you printed
+  [Space] ASCII code(32)
+

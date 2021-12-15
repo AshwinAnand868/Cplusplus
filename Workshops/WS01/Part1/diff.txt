@@ -1,0 +1,14 @@
+In line number 16 of your output:
+The output should be:
+Select a drink from the menu (1-5): 0
+                                    ^
+But your output is: 
+Select a drink from the menu (1-5): ^C==227412== 
+                                    ^
+
+Unmatched character details:
+The character in column 37 is supposed to be:
+  [0] ASCII code(48)
+but you printed
+  [^] ASCII code(94)
+

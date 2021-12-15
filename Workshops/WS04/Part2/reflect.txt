@@ -1,0 +1,9 @@
+/*
+Name - Ashwin Anand
+Seneca email - aanand24@myseneca.ca
+Student id -152042206
+Date of creation - 10 October 2021
+*/
+
+
+In this workshop, I learned to create classes and their structures which includes objects and their member functions. Member functions are funtions declared inside class and can be used to change the state of the object. Every object occupies its own memory but member functions is always present in a shared memory that is on every object of a particular class we can call those member functions. I also learnt about how to declare constructors to initialize object at the time of their creation and how to delete those objects at then end of the program using destructor. The basic difference between constructor and destructor is that constructor allocates memory for the objects first and then execute the code present in it where as destructor execute the code first and then deallocate the memory for the objects with the twist that the object which was created first deleted last and object which was created last deleted first. Apart from the constructor and destructor, I also learnt how to refer to the current object in the member function using "this" keyword. this refers to the address of object and *this refer to the current object itself. 

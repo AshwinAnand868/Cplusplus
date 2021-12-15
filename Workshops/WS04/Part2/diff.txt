@@ -1,0 +1,14 @@
+In line number 18 of your output:
+The output should be:
+No of Chapters: 3
+      ^
+But your output is: 
+No of chapters: 3
+      ^
+
+Unmatched character details:
+The character in column 7 is supposed to be:
+  [C] ASCII code(67)
+but you printed
+  [c] ASCII code(99)
+

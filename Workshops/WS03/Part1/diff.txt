@@ -1,0 +1,14 @@
+In line number 102 of your output:
+The output should be:
+>>> Searching for: "The" <<<
+                             ^
+But your output is: 
+>>> Searching for: "The" <<< 
+                            ^
+
+Unmatched character details:
+The character in column 29 is supposed to be:
+  [Empty Line] ASCII code(0)
+but you printed
+  [Space] ASCII code(32)
+
