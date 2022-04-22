@@ -90,13 +90,7 @@ namespace sdds
 
 	bool Publication::operator==(const char* title) const
 	{
-		/*return (title && m_title) && (strstr(m_title, title) != nullptr);*/
-		bool subStringExist = false;
-		if (title && m_title)
-		{
-			subStringExist = (strstr(m_title, title) != nullptr);
-		}
-		return subStringExist;
+		return (title && m_title) && (strstr(m_title, title) != nullptr);
 	}
 	void Publication::setToDefault()
 	{
