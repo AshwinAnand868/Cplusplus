@@ -137,10 +137,6 @@ namespace sdds
 				}
 				else if (Utils::strLen(m_title) <= SDDS_TITLE_WIDTH)
 				{
-					/*char temp[SDDS_AUTHOR_WIDTH + 1] = { '\0' };
-					Utils::strCpy(temp, authorName, SDDS_AUTHOR_WIDTH + 1);
-					if (temp[0])
-						Utils::delAlloCopy(authorName, temp);*/
 					os.width(SDDS_TITLE_WIDTH);
 					os.fill('.');
 					os << m_title;
