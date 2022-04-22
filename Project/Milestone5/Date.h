@@ -52,8 +52,7 @@ namespace sdds
                                       true, if valid, and false if invalid.*/
         void errCode(int);           // sets the error code
         int systemYear()const;       // returns the current system year
-        bool bad()const;             // return true if
-
+        bool bad()const;             // return true if there is an error in the date 
         int mdays()const;            // returns the number of days in current month
         void setToToday();           // sets the date to the current date (system date)
         int daysSince0001_1_1()const; // returns number of days passed since the date 0001/1/1
